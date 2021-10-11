@@ -1,12 +1,12 @@
 # Описание kad-service
 
-Для запуска парсинга необходимо направить POST запрос на адрес "/kad-service/" с параметрами вида: \n
-{'participant': '',\n
- 'judge': '',\n
- 'court': '',\n
- 'num': '',\n
- 'datefrom': '',\n
- 'dateto': ''}\n
+Для запуска парсинга необходимо направить POST запрос на адрес "/kad-service/" с параметрами вида:
+{'participant': '',
+ 'judge': '',
+ 'court': '',
+ 'num': '',
+ 'datefrom': '',
+ 'dateto': ''}
 
 
 'datefrom' и 'dateto' необходимо передовать в следующем формате: dd.mm.yyyy\n
